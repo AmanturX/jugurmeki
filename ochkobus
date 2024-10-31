@@ -14,3 +14,6 @@ git branch -m <новое_имя>
 bash
 Copy code
 git branch -m <старое_имя> <новое_имя>
+
+git switch "ветка В которую вы хотите мердж"
+git merge --no-ff "название ветки котрую вы хотите мердж"
